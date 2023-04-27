@@ -3,4 +3,8 @@ run = input("Do you run in the morning: ")
 if run == 'yes':
     print("You are doing great work")
 else:
-    print("You should run in the morning")
+    response = input("Do you have any health issue? ")
+    if response == 'yes':
+        print("Just walk, do not run")
+    else:
+        print("You should run in the morning")
