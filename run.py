@@ -6,5 +6,6 @@ else:
     response = input("Do you have any health issue? ")
     if response == 'yes':
         print("Just walk, do not run")
+        print("Do Yoga also")
     else:
         print("You should run in the morning")
